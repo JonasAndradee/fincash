@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import { actionCreators, State } from './state'
+import { actionCreators, State } from './adapters/redux'
 
 function App () {
   const dispacth = useDispatch()
