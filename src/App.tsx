@@ -1,19 +1,17 @@
+import { useDispatch, useSelector } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import { actionCreators, State } from './state'
+
 function App () {
+  const dispacth = useDispatch()
+  const amount = useSelector((state: State) => state.test)
+  const { testUpdate, testClear } = bindActionCreators(actionCreators, dispacth)
+
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {amount}
+     <button onClick={() => testUpdate(10)}>+</button>
+     <button onClick={() => testClear(10)} >-</button>
     </div>
   )
 }
