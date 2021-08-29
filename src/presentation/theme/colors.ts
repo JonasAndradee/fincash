@@ -12,6 +12,9 @@ const base: ColorsKeys = {
     light: '#EDE9FE',
     dark: '#5B21B6'
   },
+  violet: {
+    default: '#2C1338'
+  },
   coal: {
     default: '#4E4666',
     light: '#68617D',
