@@ -1,4 +1,4 @@
-import { makeLogin } from '../pages'
+import { makeLogin, makeSignUp } from '../pages'
 import { PrivateRoute } from '../../presentation/components'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
@@ -10,6 +10,7 @@ const Router: React.FC = () => {
         <Switch>
           <Route path="/login" exact component={makeLogin} />
           <PrivateRoute path="/" exact component={makeLogin} />
+          <PrivateRoute path="/cadastro" exact component={makeSignUp} />
         </Switch>
       </BrowserRouter>
   )
