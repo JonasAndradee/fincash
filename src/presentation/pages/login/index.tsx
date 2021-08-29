@@ -1,8 +1,8 @@
-import React from 'react'
-import TextField from '../../components/atoms/TextField'
+import SignInFormSection from '../../components/organisms/SignInFormSection'
+
 const Login = () => {
   return (
-    <TextField error="teste" id="teste"/>
+    <SignInFormSection />
   )
 }
 
