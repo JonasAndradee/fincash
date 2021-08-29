@@ -2,12 +2,17 @@ import { ReactNode } from 'react'
 import styled, { css } from 'styled-components'
 import theme from '../../../theme'
 
-const Container = styled.div``
+const Container = styled.div`
+  svg{
+    color: ${theme.color('purple')};
+    margin-right: ${theme.space('micro')};
+  }
+`
 
 const LabelContent = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: ${theme.space('micro')};
+  margin-bottom: ${theme.space('small')};
 `
 
 const Label = styled.span`
@@ -30,7 +35,7 @@ const InputContent = styled.div<IInputContent>`
 
   border: 2px solid;
   border-color: ${({ error, selected }) => {
-    if (selected) return theme.color('steel', 'dark')
+    if (selected) return theme.color('purple')
     if (error) return theme.color('error')
     return theme.color('steel')
   }};

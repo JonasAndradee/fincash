@@ -9,8 +9,8 @@ type ColorsKeys = {
 const base: ColorsKeys = {
   purple: {
     default: '#7C3AED',
-    light: '#665980',
-    dark: '#231653'
+    light: '#EDE9FE',
+    dark: '#5B21B6'
   },
   coal: {
     default: '#4E4666',
