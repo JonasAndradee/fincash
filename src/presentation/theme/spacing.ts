@@ -29,7 +29,7 @@ export const spaces: ISpaces = {
   tera: `${12 * baseUnit}${unit}`
 }
 
-function getSpace (name: string | number, ignoreUnit: boolean) {
+function getSpace (name: string) {
   return spaces[name] || spaces.base
 }
 
