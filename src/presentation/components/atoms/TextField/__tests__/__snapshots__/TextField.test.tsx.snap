@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`given: TextField checking: hint (bottom text) properties render a TextField with alert hint when alert is not null 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+  <div
+    className="sc-jSgvzq uwifr"
+  >
+    <svg
+      color="#7C3AED"
+      fill="currentColor"
+      height={19}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "#7C3AED",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={19}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+      />
+    </svg>
+    <span
+      className="sc-gKseQn dOXdhm"
+    >
+      Nome é a forma como chamamos alguém.
+    </span>
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: hint (bottom text) properties render a TextField with alert hint when alert is not null 2`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+  <div
+    className="sc-jSgvzq uwifr"
+  >
+    <svg
+      color="#7C3AED"
+      fill="currentColor"
+      height={19}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "#7C3AED",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={19}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z"
+      />
+    </svg>
+    <span
+      className="sc-gKseQn dOXdhm"
+    >
+      <div>
+        Você quis dizer 
+        <a
+          href="/"
+        >
+          peter@boticario.com
+        </a>
+        ?
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: hint (bottom text) properties render a TextField with error hint when error is not null 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU jNqtMA"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+  <div
+    className="sc-jSgvzq uwifr"
+  >
+    <svg
+      color="#EF4444"
+      fill="currentColor"
+      height={16}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "#EF4444",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={16}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+      />
+    </svg>
+    <span
+      className="sc-gKseQn dOXdhm"
+    >
+      O nome deve ter mais de 3 caracteres.
+    </span>
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: hint (bottom text) properties render a TextField with error hint when error is not null 2`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU jNqtMA"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+  <div
+    className="sc-jSgvzq uwifr"
+  >
+    <svg
+      color="#EF4444"
+      fill="currentColor"
+      height={16}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "#EF4444",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={16}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+      />
+    </svg>
+    <span
+      className="sc-gKseQn dOXdhm"
+    >
+      <div>
+        Valor inválido. Consulte 
+        <a
+          href="/"
+        >
+          aqui
+        </a>
+         para mais informações
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: properties render a TextField with icon before input when icon is not empty 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <svg />
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: properties render a TextField with label when label is not empty 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-gsTEea dvDUNK"
+  >
+    <span
+      className="sc-dlfnuX jgwyvi"
+    >
+      Email
+    </span>
+  </div>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: properties render a TextField with placeholder when placeholder is not empty 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+      placeholder="peter@boticario.com"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a TextField with label and required when label is not empty and required is true 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-gsTEea dvDUNK"
+  >
+    <span
+      className="sc-dlfnuX jgwyvi"
+    >
+      Email
+    </span>
+    <svg
+      color="#FF3859"
+      fill="none"
+      height={16}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "#FF3859",
+        }
+      }
+      viewBox="0 0 24 24"
+      width={16}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11 6H13V10.079L16.3413 7.73938L17.4885 9.37768L13.7434 12L17.4885 14.6223L16.3413 16.2606L13 13.921V18H11V13.921L7.65864 16.2606L6.51148 14.6223L10.2565 12L6.51147 9.37769L7.65863 7.73938L11 10.079V6Z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a TextField with type when type is not empty 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+      type="email"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a TextField with type when type is not empty 2`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+      type="password"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a TextField with type when type is not empty 3`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a TextField with value when value is not empty 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+      value="venom@boticario.com"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a disabled TextField when disabled is true 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU caAZRo"
+    disabled={true}
+  >
+    <input
+      className="sc-eCstlR jzEpvH"
+      disabled={true}
+      value="venom@boticario.com"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a selected TextField when selected is true 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU jbhSdc"
+    selected={true}
+  >
+    <input
+      className="sc-eCstlR dujijm"
+      value="venom@boticario.com"
+    />
+  </div>
+</div>
+`;
+
+exports[`given: TextField checking: state properties render a simple TextField when do not receive props 1`] = `
+<div
+  className="sc-bdfBQB"
+>
+  <div
+    className="sc-hKgJUU gFsRuv"
+  >
+    <input
+      className="sc-eCstlR dujijm"
+    />
+  </div>
+</div>
+`;
