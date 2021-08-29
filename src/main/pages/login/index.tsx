@@ -1,7 +1,8 @@
 import React from 'react'
+import Login from '../../../presentation/pages/login'
 
 export const makeLogin: React.FC = () => {
   return (
-    <h1>login</h1>
+    <Login />
   )
 }
