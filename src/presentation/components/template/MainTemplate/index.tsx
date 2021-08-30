@@ -17,9 +17,10 @@ const menuItems = [
 interface IMainTemplate{
   page: string
   title?: string
+  noButton?: boolean
 }
 
-const MainTemplate: FC<IMainTemplate> = ({ page, title, children }) => {
+const MainTemplate: FC<IMainTemplate> = ({ page, title, noButton, children }) => {
   return (
     <Style.Container>
       <Style.Nav>
@@ -27,7 +28,7 @@ const MainTemplate: FC<IMainTemplate> = ({ page, title, children }) => {
           <LeftNav menuItems={menuItems} page={page}/>
         </Style.ContentLeft>
         <Style.ContentRight>
-          <Header title={title} />
+          <Header noButton={noButton} title={title} />
           <Style.ContentDesktop>
             {children}
          </Style.ContentDesktop>
