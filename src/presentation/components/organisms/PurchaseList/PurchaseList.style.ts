@@ -6,6 +6,7 @@ const Container = styled.div`
   margin: ${theme.space('base')} auto;
 
   overflow: auto;
+  margin-bottom: 13vh;
 `
 
 const Header = styled.div`
