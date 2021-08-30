@@ -2,10 +2,14 @@ import { FC } from 'react'
 import { AiOutlinePlus } from 'react-icons/ai'
 import Style from './Header.style'
 
-const Header: FC = () => {
+interface IProps{
+  title?: string
+}
+
+const Header: FC<IProps> = ({ title }) => {
   return (
     <Style.Container>
-      <Style.Title>Vendas</Style.Title>
+      <Style.Title>{title}</Style.Title>
       <Style.Button>
         <Style.Link href="/compras/cadastrar">
         <AiOutlinePlus size={19} />
