@@ -1,8 +1,14 @@
+import { FC } from 'react'
+import { User, Credential } from '../../../entities'
 import SignUpFormSection from '../../components/organisms/SignUpFormSection'
 
-const SignUp = () => {
+interface IProps{
+  onSignup: (user: User, credencial: Credential) => void
+}
+
+const SignUp: FC<IProps> = ({ onSignup }) => {
   return (
-    <SignUpFormSection />
+    <SignUpFormSection onSignup={onSignup}/>
   )
 }
 

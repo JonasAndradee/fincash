@@ -1,4 +1,4 @@
-import React, { memo, ReactNode } from 'react'
+import React, { memo, ReactNode, HtmlHTMLAttributes } from 'react'
 
 import { MdErrorOutline, MdWarning } from 'react-icons/md'
 import { CgAsterisk } from 'react-icons/cg'
@@ -6,7 +6,7 @@ import { CgAsterisk } from 'react-icons/cg'
 import Style from './TextField.style'
 import theme from '../../../theme'
 
-interface IProps {
+interface IProps extends HtmlHTMLAttributes<HTMLInputElement>{
   id?: string,
   label?: string,
   placeholder?: string,

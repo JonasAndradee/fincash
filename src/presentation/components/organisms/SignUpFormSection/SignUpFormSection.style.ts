@@ -24,6 +24,7 @@ const Name = styled.p`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: ${theme.space('giga')};
 
   svg{
     margin-right: ${theme.space('small')};
