@@ -45,7 +45,7 @@ const Title = styled.p`
 const WrapperForm = styled.div`
   width: 500px;
   
-  margin: auto;
+  margin: 0 auto;
 
   ${theme.breakpoints.down('sm')}{
     width: 90%;

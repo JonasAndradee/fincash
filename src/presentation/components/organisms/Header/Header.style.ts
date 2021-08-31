@@ -6,7 +6,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  padding: 0 ${theme.space('base')};
+  padding: ${theme.space('base')};
 
   background: ${theme.color('white')};
 `
