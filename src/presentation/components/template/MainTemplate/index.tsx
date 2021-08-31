@@ -10,7 +10,7 @@ import Style from './MainTemplate.style'
 
 const menuItems = [
   { id: 1, icon: <AiFillHome />, href: '/' },
-  { id: 2, icon: <RiMoneyDollarBoxFill />, href: '/minha-conta' },
+  { id: 2, icon: <RiMoneyDollarBoxFill />, href: '/extrato' },
   { id: 2, icon: <BiPurchaseTag />, href: '/compras/cadastrar' }
 ]
 
