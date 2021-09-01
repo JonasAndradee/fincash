@@ -2,13 +2,13 @@
 
 exports[`given: TextField checking: hint (bottom text) properties render a TextField with alert hint when alert is not null 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
   <div
@@ -34,7 +34,7 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
       />
     </svg>
     <span
-      className="sc-gKseQn dOXdhm"
+      className="sc-gKseQn fbmicb"
     >
       Nome é a forma como chamamos alguém.
     </span>
@@ -44,13 +44,13 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
 
 exports[`given: TextField checking: hint (bottom text) properties render a TextField with alert hint when alert is not null 2`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
   <div
@@ -76,7 +76,7 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
       />
     </svg>
     <span
-      className="sc-gKseQn dOXdhm"
+      className="sc-gKseQn fbmicb"
     >
       <div>
         Você quis dizer 
@@ -94,13 +94,13 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
 
 exports[`given: TextField checking: hint (bottom text) properties render a TextField with error hint when error is not null 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU jNqtMA"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
   <div
@@ -126,7 +126,7 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
       />
     </svg>
     <span
-      className="sc-gKseQn dOXdhm"
+      className="sc-gKseQn fbmicb"
     >
       O nome deve ter mais de 3 caracteres.
     </span>
@@ -136,13 +136,13 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
 
 exports[`given: TextField checking: hint (bottom text) properties render a TextField with error hint when error is not null 2`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU jNqtMA"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
   <div
@@ -168,7 +168,7 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
       />
     </svg>
     <span
-      className="sc-gKseQn dOXdhm"
+      className="sc-gKseQn fbmicb"
     >
       <div>
         Valor inválido. Consulte 
@@ -186,14 +186,14 @@ exports[`given: TextField checking: hint (bottom text) properties render a TextF
 
 exports[`given: TextField checking: properties render a TextField with icon before input when icon is not empty 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <svg />
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
 </div>
@@ -201,13 +201,13 @@ exports[`given: TextField checking: properties render a TextField with icon befo
 
 exports[`given: TextField checking: properties render a TextField with label when label is not empty 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
-    className="sc-gsTEea dvDUNK"
+    className="sc-gsTEea lcSwzB"
   >
     <span
-      className="sc-dlfnuX jgwyvi"
+      className="sc-dlfnuX evOzTz"
     >
       Email
     </span>
@@ -216,7 +216,7 @@ exports[`given: TextField checking: properties render a TextField with label whe
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
 </div>
@@ -224,13 +224,13 @@ exports[`given: TextField checking: properties render a TextField with label whe
 
 exports[`given: TextField checking: properties render a TextField with placeholder when placeholder is not empty 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
       placeholder="peter@boticario.com"
     />
   </div>
@@ -239,13 +239,13 @@ exports[`given: TextField checking: properties render a TextField with placehold
 
 exports[`given: TextField checking: state properties render a TextField with label and required when label is not empty and required is true 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
-    className="sc-gsTEea dvDUNK"
+    className="sc-gsTEea lcSwzB"
   >
     <span
-      className="sc-dlfnuX jgwyvi"
+      className="sc-dlfnuX evOzTz"
     >
       Email
     </span>
@@ -274,7 +274,7 @@ exports[`given: TextField checking: state properties render a TextField with lab
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
 </div>
@@ -282,13 +282,13 @@ exports[`given: TextField checking: state properties render a TextField with lab
 
 exports[`given: TextField checking: state properties render a TextField with type when type is not empty 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
       type="email"
     />
   </div>
@@ -297,13 +297,13 @@ exports[`given: TextField checking: state properties render a TextField with typ
 
 exports[`given: TextField checking: state properties render a TextField with type when type is not empty 2`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
       type="password"
     />
   </div>
@@ -312,13 +312,13 @@ exports[`given: TextField checking: state properties render a TextField with typ
 
 exports[`given: TextField checking: state properties render a TextField with type when type is not empty 3`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
       type="text"
     />
   </div>
@@ -327,13 +327,13 @@ exports[`given: TextField checking: state properties render a TextField with typ
 
 exports[`given: TextField checking: state properties render a TextField with value when value is not empty 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
       value="venom@boticario.com"
     />
   </div>
@@ -342,14 +342,14 @@ exports[`given: TextField checking: state properties render a TextField with val
 
 exports[`given: TextField checking: state properties render a disabled TextField when disabled is true 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU caAZRo"
     disabled={true}
   >
     <input
-      className="sc-eCstlR jzEpvH"
+      className="sc-eCstlR cqCdiK"
       disabled={true}
       value="venom@boticario.com"
     />
@@ -359,14 +359,14 @@ exports[`given: TextField checking: state properties render a disabled TextField
 
 exports[`given: TextField checking: state properties render a selected TextField when selected is true 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
-    className="sc-hKgJUU jbhSdc"
+    className="sc-hKgJUU lhqIjs"
     selected={true}
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
       value="venom@boticario.com"
     />
   </div>
@@ -375,13 +375,13 @@ exports[`given: TextField checking: state properties render a selected TextField
 
 exports[`given: TextField checking: state properties render a simple TextField when do not receive props 1`] = `
 <div
-  className="sc-bdfBQB"
+  className="sc-bdfBQB hsUKZc"
 >
   <div
     className="sc-hKgJUU gFsRuv"
   >
     <input
-      className="sc-eCstlR dujijm"
+      className="sc-eCstlR cVJSuX"
     />
   </div>
 </div>
