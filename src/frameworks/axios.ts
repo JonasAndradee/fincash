@@ -1,7 +1,7 @@
 import { AxiosHttpClient } from '../adapters/axios'
 import { HttpRequest } from '../adapters/axios/http'
 
-const baseUrl = 'http://localhost:3001'
+const baseUrl = 'https://fincash-api.herokuapp.com'
 
 const axiosResquest = async (params: HttpRequest) => {
   const endpoint = `${baseUrl}/${params.url}`
