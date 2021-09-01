@@ -44,7 +44,7 @@ const SignInForm: FC<ISignInForm> = (props) => {
   return (
     <Style.Container>
       {error && (
-        <Style.Error>{error}</Style.Error>
+        <Style.Error id="error">{error}</Style.Error>
       )}
        <Style.WrapperField>
         <TextField
@@ -67,7 +67,7 @@ const SignInForm: FC<ISignInForm> = (props) => {
         <Style.ForgotPassword href={linkForgotPassword} >Esqueci minha senha</Style.ForgotPassword>
       )}
       <Style.DividerLine />
-      <Style.Button onClick={handleClick}>Entrar</Style.Button>
+      <Style.Button id="button-login" onClick={handleClick}>Entrar</Style.Button>
     </Style.Container>
   )
 }

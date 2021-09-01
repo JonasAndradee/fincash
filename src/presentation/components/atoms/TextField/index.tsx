@@ -39,7 +39,7 @@ const TextField: React.FC<IProps> = props => {
       }
       <Style.InputContent selected={selected} error={error} disabled={disabled}>
         {icon}
-        <Style.Input value={value} placeholder={placeholder} disabled={disabled} {...other} />
+        <Style.Input id={id} value={value} placeholder={placeholder} disabled={disabled} {...other} />
       </Style.InputContent>
       {
         error && (
