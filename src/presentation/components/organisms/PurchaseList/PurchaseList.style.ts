@@ -63,7 +63,7 @@ const ListItem = styled.div`
 
 const ListItemMobile = styled.div`
   ${theme.typography.normal}
-  width: 70px;
+  width: 85px;
 `
 
 const ContainerItems = styled.div`

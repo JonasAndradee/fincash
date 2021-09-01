@@ -13,7 +13,7 @@ import Style from './SignInForm.style'
 
 interface ISignUpForm{
   onSubmit: (user: User, credencial: Credential) => void
-  linkForgotPassword?: string
+  linkSignIn?: string
 }
 
 type Values = {
@@ -40,7 +40,7 @@ const SignUpForm: FC<ISignUpForm> = (props) => {
     setValues({ ...values, [key]: value })
   }
 
-  const { onSubmit } = props
+  const { onSubmit, linkSignIn } = props
 
   const handleClick = () => {
     const { name, cpf, email, password } = values
@@ -106,8 +106,11 @@ const SignUpForm: FC<ISignUpForm> = (props) => {
           id="confirm-password"
          />
       </Style.WrapperField>
+      {linkSignIn && (
+        <Style.SigInLink href={linkSignIn} >Login</Style.SigInLink>
+      )}
       <Style.DividerLine />
-      <Style.Button onClick={handleClick}>Entrar</Style.Button>
+      <Style.Button onClick={handleClick}>Cadastrar</Style.Button>
     </Style.Container>
   )
 }

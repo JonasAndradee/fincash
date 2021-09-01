@@ -15,16 +15,6 @@ const WrapperField = styled.div`
   margin-top: ${theme.space('base')};
 `
 
-const ForgotPassword = styled.a`
-  ${theme.typography.normal}
-
-  margin-top: ${theme.space('small')};
-  color: ${theme.color('purple')};
-
-  text-decoration: underline;
-  cursor: pointer;
-`
-
 const DividerLine = styled.div`
   border: 1px solid ${theme.color('silver', 'dark')};
 
@@ -47,11 +37,21 @@ const Error = styled.div`
   color: ${theme.color('white')};
 `
 
+const SigInLink = styled.a`
+  ${theme.typography.normal}
+
+  margin-top: ${theme.space('base')};
+  color: ${theme.color('purple')};
+
+  text-decoration: underline;
+  cursor: pointer;
+`
+
 export default {
   Container,
   WrapperField,
-  ForgotPassword,
   DividerLine,
   Button,
-  Error
+  Error,
+  SigInLink
 }

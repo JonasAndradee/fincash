@@ -13,6 +13,8 @@ const Container = styled.div`
 
   ${theme.breakpoints.down('lg')}{
     width: 80%;
+    height: 83vh;
+    margin-bottom: ${theme.space('giga')};
   }
 `
 

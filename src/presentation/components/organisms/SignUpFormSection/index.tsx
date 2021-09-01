@@ -16,7 +16,7 @@ const SignUpFormSection: FC<IProps> = ({ onSignup }) => {
       <Style.WrapperForm>
         <Style.Name><SiCashapp size={40}/>Fincash</Style.Name>
         <Style.Title>Faça seu cadastro na plataforma</Style.Title>
-        <SignUpForm linkForgotPassword="/recuperar-senha" onSubmit={onSignup}/>
+        <SignUpForm linkSignIn="/login" onSubmit={onSignup}/>
       </Style.WrapperForm>
     </Style.Container>
   )

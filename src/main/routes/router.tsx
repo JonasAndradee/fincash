@@ -2,9 +2,13 @@ import { makeLogin, makeSignUp, makeHome, makePurchase, makeStatement } from '..
 import { PrivateRoute } from '../../presentation/components'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Router: React.FC = () => {
+  useEffect(() => {
+    document.title = 'Fincash'
+  }, [])
+
   return (
       <BrowserRouter>
         <Switch>
