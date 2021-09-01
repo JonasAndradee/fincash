@@ -93,6 +93,36 @@ const ListMobile = styled.div`
   box-sizing: border-box;
 `
 
+const Loading = styled.div`
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 290px;
+
+  font-weight: normal;
+  font-size: 14px;
+  color: #64748b;
+
+  svg {
+    color: #64748b;
+    width: 26px;
+    height: 26px;
+    animation: rotate 2s ease infinite;
+    margin-bottom: 16px;
+  }
+`
+
 export default {
   Container,
   Header,
@@ -102,5 +132,6 @@ export default {
   ListItemMobile,
   HeaderItemMobile,
   ListMobile,
-  ContainerItems
+  ContainerItems,
+  Loading
 }

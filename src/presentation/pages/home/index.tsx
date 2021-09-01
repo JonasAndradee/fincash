@@ -2,37 +2,23 @@ import { FC } from 'react'
 import PurchaseList from '../../components/organisms/PurchaseList'
 import MainTemplate from '../../components/template/MainTemplate'
 
-const purchaseList = [
-  {
-    id: 1,
-    amount: 23.9,
-    date: '24/03/2000',
-    percentageCashback: 293.8,
-    valueCashback: 3892.6,
-    status: 'Aprovado'
-  },
-  {
-    id: 1,
-    amount: 23.9,
-    date: '24/03/2000',
-    percentageCashback: 293.8,
-    valueCashback: 3892.6,
-    status: 'Aprovado'
-  },
-  {
-    id: 1,
-    amount: 23.9,
-    date: '24/03/2000',
-    percentageCashback: 293.8,
-    valueCashback: 3892.6,
-    status: 'Aprovado'
-  }
-]
+type Purchase = {
+  id: number,
+  amount: string,
+  date: string,
+  percentageCashback: string,
+  valueCashback: string,
+  status: string
+}
 
-const Home: FC = () => {
+interface IProps{
+  purchases: Purchase[] | []
+}
+
+const Home: FC<IProps> = ({ purchases }) => {
   return (
     <MainTemplate title="Compras" page="/">
-      <PurchaseList list={purchaseList}/>
+      <PurchaseList list={purchases}/>
     </MainTemplate>
   )
 }

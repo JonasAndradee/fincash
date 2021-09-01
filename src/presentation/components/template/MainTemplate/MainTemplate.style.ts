@@ -45,6 +45,11 @@ const ContentBottom = styled.div`
 const ContentRight = styled.div`
   width: 100%;
   height: 64px;
+
+  ${theme.breakpoints.up('md')}{
+    height: 100vh;
+    overflow-y: scroll;
+  }
 `
 
 export default {

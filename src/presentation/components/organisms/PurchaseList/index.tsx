@@ -1,18 +1,19 @@
 import { memo, FC } from 'react'
+import { FaSpinner } from 'react-icons/fa'
 
 import Style from './PurchaseList.style'
 
 type List = {
   id: number
-  amount: number
+  amount: string
   date: string
-  percentageCashback: number
-  valueCashback: number
+  percentageCashback: string
+  valueCashback: string
   status: string
 }
 
 interface IProps{
-  list: List[]
+  list: List[] | []
 }
 
 const headerItems = ['Código', 'Valor', 'Data', ' % de cashback', 'Cashback', 'Status']
@@ -21,13 +22,13 @@ const PurchaseList: FC<IProps> = ({ list }) => {
   return (
     <Style.Container>
       <Style.Header>
-        {headerItems.map((label) => (
+        {headerItems?.map((label) => (
           <Style.HeaderItem key={label}>
            {label}
           </Style.HeaderItem>
         ))}
       </Style.Header>
-      {list?.map((item) => (
+      {!!list.length && list?.map((item) => (
         <Style.List key={item.id}>
            <Style.ListItem>
             {item.id}
@@ -49,7 +50,8 @@ const PurchaseList: FC<IProps> = ({ list }) => {
           </Style.ListItem>
         </Style.List>
       ))}
-      {list?.map((item) => (
+      {!list.length && <Style.Loading><FaSpinner size={25}/></Style.Loading>}
+      {!!list.length && list?.map((item) => (
       <Style.ListMobile key={item.id}>
          <Style.ContainerItems>
             <Style.HeaderItemMobile>{headerItems[0]}:</Style.HeaderItemMobile>
