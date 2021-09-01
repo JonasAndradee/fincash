@@ -14,11 +14,11 @@ type Values = {
 
 interface ISignInForm{
   onSubmit: (credencial: Credential) => void
-  linkForgotPassword?: string
+  linkRegister?: string
 }
 
 const SignInForm: FC<ISignInForm> = (props) => {
-  const { onSubmit, linkForgotPassword } = props
+  const { onSubmit, linkRegister } = props
 
   const [values, setValues] = useState<Values>({
     email: '',
@@ -63,8 +63,8 @@ const SignInForm: FC<ISignInForm> = (props) => {
           id="password"
         />
       </Style.WrapperField>
-      {linkForgotPassword && (
-        <Style.ForgotPassword href={linkForgotPassword} >Esqueci minha senha</Style.ForgotPassword>
+      {linkRegister && (
+        <Style.ForgotPassword href={linkRegister} >Cadastra-se</Style.ForgotPassword>
       )}
       <Style.DividerLine />
       <Style.Button id="button-login" onClick={handleClick}>Entrar</Style.Button>

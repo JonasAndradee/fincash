@@ -1,4 +1,5 @@
-import { FC } from 'react'
+import { FC, useEffect } from 'react'
+import Cookies from 'universal-cookie'
 import { AiFillHome } from 'react-icons/ai'
 import { RiMoneyDollarBoxFill } from 'react-icons/ri'
 import { BiPurchaseTag } from 'react-icons/bi'
@@ -7,6 +8,7 @@ import LeftNav from '../../organisms/LeftNav'
 import BottomNav from '../../organisms/BottomNav'
 
 import Style from './MainTemplate.style'
+import { useHistory } from 'react-router-dom'
 
 const menuItems = [
   { id: 1, icon: <AiFillHome />, href: '/' },
@@ -21,6 +23,18 @@ interface IMainTemplate{
 }
 
 const MainTemplate: FC<IMainTemplate> = ({ page, title, noButton, children }) => {
+  const history = useHistory()
+
+  useEffect(() => {
+    const cookies = new Cookies()
+
+    const accessToken = cookies.get('accessToken')
+
+    if (!accessToken) {
+      history.push('/login')
+    }
+  }, [])
+
   return (
     <Style.Container>
       <Style.Nav>

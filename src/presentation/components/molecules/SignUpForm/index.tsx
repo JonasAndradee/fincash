@@ -2,6 +2,9 @@ import { memo, FC, useState } from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BiLockAlt } from 'react-icons/bi'
 import { HiOutlineIdentification, HiOutlineUserCircle } from 'react-icons/hi'
+import { useDispatch, useSelector } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import { State, actionCreators } from '../../../../adapters/redux'
 import { User, Credential } from '../../../../entities'
 
 import TextField from '../../atoms/TextField'
@@ -29,6 +32,10 @@ const SignUpForm: FC<ISignUpForm> = (props) => {
   })
   const [error, setError] = useState('')
 
+  const dispacth = useDispatch()
+  const userState = useSelector((state: State) => state.user)
+  const { userUpdate } = bindActionCreators(actionCreators, dispacth)
+
   const handleValue = (key: string, value: string) => {
     setValues({ ...values, [key]: value })
   }
@@ -40,8 +47,13 @@ const SignUpForm: FC<ISignUpForm> = (props) => {
     setError('')
     try {
       const user = new User(name, cpf, email)
+
+      // Não tem necessidade deste dispacth.
+      // Só coloquei ele para mostrar meus conhecimentos em como utilizar o redux
+      userUpdate(user)
+
       const credential = new Credential(email, password)
-      onSubmit(user, credential)
+      onSubmit(userState, credential)
     } catch (e: any) {
       setError(e?.message)
     }

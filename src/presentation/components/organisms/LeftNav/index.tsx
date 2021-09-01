@@ -1,9 +1,11 @@
 import { FC, memo, ReactNode } from 'react'
 import { SiCashapp } from 'react-icons/si'
 import { FaRegUserCircle } from 'react-icons/fa'
-
+import { FiLogOut } from 'react-icons/fi'
+import Cookies from 'universal-cookie'
 import Style from './LeftNav.style'
 import theme from '../../../theme'
+import { useHistory } from 'react-router-dom'
 
 type MenuItems = {
   id: number
@@ -17,6 +19,14 @@ interface IProps {
 }
 
 const LeftNav: FC<IProps> = ({ page, menuItems }) => {
+  const history = useHistory()
+
+  const logout = () => {
+    const cookies = new Cookies()
+    cookies.remove('accessToken')
+    history.push('/login')
+  }
+
   return (
     <Style.Container>
       <Style.Content>
@@ -29,6 +39,7 @@ const LeftNav: FC<IProps> = ({ page, menuItems }) => {
       </Style.Content>
       <Style.UserContent>
         <FaRegUserCircle />
+        <FiLogOut onClick={logout}/>
       </Style.UserContent>
     </Style.Container>)
 }

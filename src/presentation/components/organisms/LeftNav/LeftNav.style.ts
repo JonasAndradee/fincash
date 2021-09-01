@@ -58,18 +58,16 @@ const UserContent = styled.div`
   margin-bottom: ${theme.space('small')};
   cursor: pointer;
 
-  &:hover{
-    svg{
-      color: ${theme.color('purple')};
-    }
-  }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 
   svg{
     width: 45px;
     height: 45px;
-    color: ${theme.color('white')}
-
-   
+    color: ${theme.color('white')};
+    margin-bottom: ${theme.space('base')};
   }
 `
 

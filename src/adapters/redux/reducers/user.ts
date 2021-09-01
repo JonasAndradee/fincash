@@ -1,14 +1,13 @@
 import { Action } from '../actions/index'
 import { ActionType } from '../action-types'
+import { User } from '../../../entities'
 
-const initialState = 0
+const initialState = new User('test', '000', 'test@gmail.com')
 
-const reducer = (state: number = initialState, action: Action) => {
+const reducer = (state: User = initialState, action: Action) => {
   switch (action.type) {
     case ActionType.UPDATE:
-      return state + action.payload
-    case ActionType.CLEAR:
-      return state + action.payload
+      return action.payload
     default:
       return state
   }
