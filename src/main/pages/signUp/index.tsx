@@ -14,7 +14,7 @@ export const makeSignUp: FC = () => {
     try {
       const response = await service.signUpUser(user, credential)
       const cookies = new Cookies()
-      cookies.set('accessToken', response?.body?.accessToken)
+      cookies.set('accessToken', response?.body?.accessToken, { secure: true, path: '/' })
       history.push('/')
     } catch (e: any) {
       console.log(e)
